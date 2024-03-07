@@ -14,5 +14,14 @@ export default defineNuxtConfig({
   },
   typescript: {
     strict: false
+  },
+  colorMode: {
+    preference: 'light',
+    fallback: 'light'
+  },
+  runtimeConfig: {
+    public: {
+      openWeatherMapApiKey: 'a2c52cf480fbf1ef631de4a501b5c5bf'
+    }
   }
 })

@@ -37,7 +37,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge label="Landing" variant="subtle" class="mb-0.5" />
+      Nuxt Meteo <UBadge label="Landing" variant="subtle" class="mb-0.5" />
     </template>
 
     <template #right>
